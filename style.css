@@ -232,7 +232,6 @@ footer {
 /*  sessão especialidades  */
 .skills{
 
-  background-color: #f3f2f2;
   height: 85vh;
 }
 
@@ -275,6 +274,7 @@ footer {
 .skills .skills-content .right span {
   font-weight: 500;
   font-size: 18px;
+  margin-top: 15px;
 }
 .container{
   width: 490px;
@@ -360,7 +360,7 @@ footer {
 
   .skills{
 
-    height: 100vh;
+    height: 85vh;
   }
 }
 
