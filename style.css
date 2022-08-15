@@ -8,6 +8,20 @@
 html {
   scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #111;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00804b;
+  border-radius: 20px;
+  border: 3px solid #111;
+}
 .max-width {
   max-width: 1300px;
   padding: 0 80px;
@@ -231,7 +245,6 @@ footer {
 
 /*  sessão especialidades  */
 .skills{
-
   height: 85vh;
 }
 
