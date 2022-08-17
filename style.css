@@ -284,46 +284,39 @@ footer {
   font-size: 18px;
   margin-top: 15px;
 }
-.container{
+.container {
   background-color: aquamarine;
   width: 450px;
 }
 
-.skills .skills-content .right{
-
+.skills .skills-content .right {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.sub-column1{
+.sub-column1 {
   width: auto;
 }
 
-.sub-column2{
+.sub-column2 {
   width: auto;
 }
 
-
-
-
-.info ion-icon{
-
+.info ion-icon {
   font-size: 25px;
   color: #00804b;
 }
 
-.info i{
-
+.info i {
   font-size: 25px;
   color: #00804b;
 }
 
 /*  sessão Contato  */
 
-.contact{
-
-  margin-top: -100px; 
+.contact {
+  margin-top: -100px;
 }
 .contact .title:after {
   content: "Fale comigo";
@@ -387,13 +380,11 @@ footer {
 
 /*  responsividade  */
 
-
 @media (max-width: 1104px) {
   .about .about-content .left img {
     width: 350px;
     height: 350px;
   }
-
 }
 @media (max-width: 991px) {
   .navbar .max-width {
@@ -401,18 +392,14 @@ footer {
   }
 }
 @media (max-width: 947px) {
-
-  .about{
-
+  .about {
     margin-top: -30px;
   }
-  .skills{
-
+  .skills {
     margin-top: -80px;
   }
-  .contact{
-
-    margin-top: -170px; 
+  .contact {
+    margin-top: -170px;
   }
   .max-width {
     max-width: 800px;
@@ -471,37 +458,31 @@ footer {
     margin-bottom: 35px;
   }
 
-  .skills .skills-content .right{
+  .skills .skills-content .right {
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    
   }
-  .sub-column1{
-
+  .sub-column1 {
     display: flex;
     flex-direction: row;
     width: 200px;
     margin-right: 2px;
   }
 
-  .sub-column2{
-
+  .sub-column2 {
     display: flex;
     flex-direction: row;
     width: 200px;
   }
-  .sub-column1 span{
-
+  .sub-column1 span {
     padding: 6px;
   }
 
-  .sub-column2 span{
-
+  .sub-column2 span {
     padding: 6px;
   }
-
 }
 
 @media (max-width: 690px) {
@@ -514,13 +495,10 @@ footer {
   .home .home-content a {
     font-size: 20px;
   }
-
 }
 
-@media (max-width: 595px){
-
-  .skills .skills-content .right span{
-
+@media (max-width: 595px) {
+  .skills .skills-content .right span {
     font-size: 14px;
     padding: 5px;
   }
@@ -535,85 +513,66 @@ footer {
   }
 }
 
-@media (max-width: 470px){
-
-  .about .title{
-
+@media (max-width: 470px) {
+  .about .title {
     font-size: 30px;
   }
-  .skills .title{
-
+  .skills .title {
     font-size: 30px;
   }
-
 }
 
-@media (max-width: 390px){
-
-
+@media (max-width: 390px) {
   .about .title:after {
     content: "Quem sou eu";
     font-size: 16px;
   }
 }
 
-@media (max-width: 364px){
-
-  .home .home-content{
-
+@media (max-width: 364px) {
+  .home .home-content {
     margin-left: -30px;
   }
 
-  .home .home-content .text-1{
+  .home .home-content .text-1 {
     font-size: 20px;
-
   }
 
-  .home .home-content .text-2{
+  .home .home-content .text-2 {
     font-size: 40px;
-
   }
 
-  .home .home-content .text-3{
+  .home .home-content .text-3 {
     font-size: 20px;
-
   }
 
- .skills .skills-content .left .text{
+  .skills .skills-content .left .text {
+    font-size: 20px;
+  }
 
-  font-size: 20px
- }
+  .about .about-content .left img {
+    width: 300px;
+    height: 300px;
+  }
 
- .about .about-content .left img {
-  width: 300px;
-  height: 300px;
- 
-}
+  .skills .skills-content .left p {
+    font-size: 15px;
+  }
 
- .skills .skills-content .left p{
+  .skills .skills-content .left a {
+    font-size: 15px;
+  }
 
-  font-size: 15px;
- }
-
- .skills .skills-content .left a{
-
-  font-size: 15px;
- }
-
-  .contact .max-width .title{
-
+  .contact .max-width .title {
     font-size: 30px;
   }
 
   .contact .title:after {
-    
     font-size: 16px;
   }
 }
-@media (max-width: 345px){
-
-  .icons-skills{
-
+@media (max-width: 345px) {
+  .icons-skills {
     font-size: 18px;
   }
 }
