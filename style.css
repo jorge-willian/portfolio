@@ -244,11 +244,6 @@ footer {
 }
 
 /*  sessão especialidades  */
-.skills{
-  height: 85vh;
-}
-
-
 .skills .skills-content .column {
   width: calc(50% - 30px);
 }
@@ -290,10 +285,27 @@ footer {
   margin-top: 15px;
 }
 .container{
+  background-color: aquamarine;
   width: 450px;
-  display: flex;
-  flex-direction: column;
 }
+
+.skills .skills-content .right{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.sub-column1{
+  width: auto;
+}
+
+.sub-column2{
+  width: auto;
+}
+
+
+
 
 .info ion-icon{
 
@@ -308,6 +320,11 @@ footer {
 }
 
 /*  sessão Contato  */
+
+.contact{
+
+  margin-top: -100px; 
+}
 .contact .title:after {
   content: "Fale comigo";
 }
@@ -369,25 +386,7 @@ footer {
 }
 
 /*  responsividade  */
-@media (max-width: 1330px){
 
-  .skills{
-
-    height: 85vh;
-  }
-}
-
-@media (max-width: 1300px) {
-  .navbar .max-width {
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 1215px){
-  .container{
-    width: 400px;
-  }
-}
 
 @media (max-width: 1104px) {
   .about .about-content .left img {
@@ -402,6 +401,19 @@ footer {
   }
 }
 @media (max-width: 947px) {
+
+  .about{
+
+    margin-top: -30px;
+  }
+  .skills{
+
+    margin-top: -80px;
+  }
+  .contact{
+
+    margin-top: -200px; 
+  }
   .max-width {
     max-width: 800px;
     padding: 0 50px;
@@ -463,25 +475,33 @@ footer {
     display: flex;
     flex-direction: row;
     text-align: center;
-    padding-top: 15px auto 0px auto;
+    justify-content: center;
     
   }
+  .sub-column1{
 
-  .skills .skills-content .right span{
-
-    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin-right: 2px;
   }
 
-  .container{
-    margin-left: 80px;
+  .sub-column2{
+
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+  }
+  .sub-column1 span{
+
+    padding: 6px;
   }
 
-}
-@media (max-width: 710px){
+  .sub-column2 span{
 
-  .container{
-    margin-left: 50px;
+    padding: 6px;
   }
+
 }
 
 @media (max-width: 690px) {
@@ -496,26 +516,9 @@ footer {
   }
 
 }
-@media (max-width: 660px){
-
-  .container{
-    margin-left: 30px;
-  }
-}
-
-@media (max-width: 610px){
-
-  .container{
-    margin-left: 5px;
-  }
-}
 
 @media (max-width: 595px){
 
-  .container{
-
-    width: auto;
-  }
   .skills .skills-content .right span{
 
     font-size: 14px;
@@ -532,12 +535,21 @@ footer {
   }
 }
 
+@media (max-width: 470px){
+
+  .about .title{
+
+    font-size: 30px;
+  }
+  .skills .title{
+
+    font-size: 30px;
+  }
+
+}
+
 @media (max-width: 390px){
 
-  .container{
-
-    margin-left: -20px;
-  }
 
   .about .title:after {
     content: "Quem sou eu";
@@ -567,11 +579,6 @@ footer {
 
   }
 
-  .about .title{
-
-    font-size: 30px;
-  }
-
  .skills .skills-content .left .text{
 
   font-size: 20px
@@ -592,15 +599,6 @@ footer {
 
   font-size: 15px;
  }
-  .skills .title{
-
-    font-size: 30px;
-  }
-
-  .container{
-
-    margin-left: -30px;
-  }
 
   .contact .max-width .title{
 
@@ -614,21 +612,8 @@ footer {
 }
 @media (max-width: 345px){
 
-  .container{
-
-    margin-left: -45px;
-  }
-
   .icons-skills{
 
     font-size: 18px;
-  }
-}
-
-@media (max-width: 322px){
-
-  .container{
-
-    margin-left: -50px;
   }
 }
