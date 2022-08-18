@@ -403,7 +403,7 @@ footer {
   padding: 15px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #1b1b1b;
 }
 
