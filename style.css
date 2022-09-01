@@ -580,6 +580,12 @@ footer {
     font-size: 30px;
   }
 
+  .about .about-content .left img{
+
+    width: 350px;
+    height: 320px;
+  }
+
   .about .about-content .right .text {
     font-size: 20px;
   }
